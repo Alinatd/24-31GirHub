@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e1ff; /* Фиолетово-розовый оттенок для фона */
+    color: #4a225d; /* Цвет текста */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .resume {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #8a2be2; /* Цвет заголовка */
+  }
+  
+  h2 {
+    color: #ff69b4; /* Цвет подзаголовка */
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
+  
+  h4 {
+    margin-top: 20px;
+    color: #800080; /* Цвет подзаголовков */
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  li {
+    list-style-type: disc;
+  }
+  

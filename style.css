@@ -1,0 +1,55 @@
+/* Общие стили */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Стили для анимации и параллакс-эффекта могут быть добавлены с помощью JavaScript */
+  
+  /* Стили для анимированных элементов "снега" и "конфет" */
+.snow,
+.confetti {
+  position: absolute;
+  top: -50px;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  animation: fall linear infinite;
+  z-index: 9999;
+}
+
+.snow i,
+.confetti i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+/* Дополнительные стили могут быть добавлены для улучшения визуального эффекта */
